@@ -5,6 +5,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function getTranslationURL(text) {
     return serverURL + "?" + "text=" + text
+
 }
 //console.log(getTranslationURL("I am richa"));
 function errorHandler(error) {
